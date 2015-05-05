@@ -1,0 +1,157 @@
+body         { background-color: #D4DDED; font-family: Verdana, sans-serif; font-size: 12px }
+td           { font-family: Verdana, sans-serif; font-size: 12px; vertical-align: top; }
+a:link       { color: #0047BE; text-decoration: underline }
+a:visited    { color: #0047BE; text-decoration: underline }
+a:active     { color: #C40098; text-decoration: underline }
+a:hover      { color: #C40098; text-decoration: underline }
+.H           { font-family: Verdana; font-size: 11px; color: #000000; text-decoration: none; background-color: #BFD0EA}
+.H:link      { font-family: Verdana; font-size: 11px; color: #000000; text-decoration: none }
+.H:visited   { font-family: Verdana; font-size: 11px; color: #000000; text-decoration: none }
+.H:hover     { font-family: Verdana; font-size: 11px; color: #FFFFFF; text-decoration: none }
+.F           { font-family: Verdana; font-size: 10px; color: #FFFFFF; text-decoration: none; background-color: #A1BBE4}
+.F:link      { font-family: Verdana; font-size: 10px; color: #FFFFFF; text-decoration: none }
+.F:visited   { font-family: Verdana; font-size: 10px; color: #FFFFFF; text-decoration: none }
+.F:hover     { font-family: Verdana; font-size: 10px; color: #000000; text-decoration: none }
+.P			 { FONT-SIZE: 11px; COLOR: #c41e99; FONT-FAMILY: Verdana; TEXT-DECORATION: underline }
+.P:link		 { FONT-SIZE: 11px; COLOR: #0047BE; FONT-FAMILY: Verdana; TEXT-DECORATION: underline }
+.P:visited	 { FONT-SIZE: 11px; COLOR: #0047BE; FONT-FAMILY: Verdana; TEXT-DECORATION: underline }
+.P:hover	 { FONT-SIZE: 11px; COLOR: #D733B4; FONT-FAMILY: Verdana; TEXT-DECORATION: underline }
+.N			 { FONT-SIZE: 11px; COLOR: #c41e99; FONT-FAMILY: Verdana; TEXT-DECORATION: none }
+.N:link		 { FONT-SIZE: 11px; COLOR: #0047BE; FONT-FAMILY: Verdana; TEXT-DECORATION: none }
+.N:visited	 { FONT-SIZE: 11px; COLOR: #0047BE; FONT-FAMILY: Verdana; TEXT-DECORATION: none }
+.N:hover	 { FONT-SIZE: 11px; COLOR: #D733B4; FONT-FAMILY: Verdana; TEXT-DECORATION: none }
+.R           { font-family: Verdana; font-size: 10px; text-decoration: none}
+.S           { font-family: Verdana; font-size: 11px; text-decoration: none;}
+.M           { font-family: Verdana; font-size: 12px; text-decoration: none;}
+.I           { font-family: Verdana; font-size: 10px; color: #2242C0; }
+.C           { font-family: Verdana; font-size: 11px; color: #2242C0; }
+.B           { font-family: Verdana; font-size: 12px; color: #2242C0; }
+.L			 { font-family: Tahoma,Verdana,Arial; font-size: 24px; color: #296DC1}
+.T			 { border: #A1BBE4 1px solid }
+.U			 { border: #D3BE96 1px solid; background-color: #FCF0D8}
+.W           { color: #FFFFFF }
+.E           { color: #C41E99 }
+.textarea    { font-family: Verdana; font-size: 12px; color: #000000; background-color: #f5f5f5; border: single #f60; border-width: 1px 1px 1px 1px; overflow:auto; }
+input.textbox{ font-family: Verdana; font-size: 12px; color: #000000; background-color: #F5F5F5; border-width: 1px 1px 1px 1px; }
+.checkbox { font-family : Verdana, Arial, Helvetica, sans-serif; font-size : 11px; color: #111111; font-weight:400; }
+select { font-family: Verdana; font-size: 11px; color: #000000; background-color: #F5F5F5; border-width: 1px 1px 1px 1px; }
+
+
+
+.item {margin-bottom: 8px;}
+.itemHead {padding: 4px; border-left: 8px solid #7F99CC; border-bottom: 1px solid #7F99CC; background-color: #E5EAF5; color: #003399; font-weight: bold;}
+.itemInfo {padding: 4px; text-align: center; border-bottom: 1px solid #B2C1E0; color: #6685C2;}
+.itemTitle a {}
+.itemPoster {font-size: 90%;}
+.itemPostDate {font-size: 90%;}
+.itemStats {font-size: 90%;}
+.itemBody {padding: 8px;}
+.itemText {line-height: 1.5em; margin: 0px;}
+.itemText:first-letter {}
+.itemFoot {text-align: center; padding: 4px; border: 1px solid #B2C1E0; color: #6685C2;}
+.itemAdminLink {font-size: 90%;}
+.itemPermaLink {font-size: 90%;}
+
+th {background-color: #7F99CC; color: #FFFFFF; padding : 4px; vertical-align : middle; font-size: 11px;}
+
+
+
+td#headerbanner {}
+td#headerbar {}
+
+td#leftcolumn {width: 160px; background-color: #E5EAF5; border-left: 1px solid #7F99CC; border-bottom: 1px solid #7F99CC;}
+td#leftcolumn th {}
+td#leftcolumn .blockTitle {padding: 4px; color: #FFFFFF; background-color: #7F99CC; font-weight: bold;}
+td#leftcolumn .blockContent {padding: 2px; line-height: 120%;}
+
+
+td#centercolumn {padding: 8px; background-color: #FFFFFF; border: 1px solid #7F99CC;}
+
+td#centercolumn th {}
+td#centerCcolumn {padding: 0px;}
+td#centerCcolumn .blockTitle {font-weight: bold; padding: 4px; border-left: 8px solid #7F99CC; border-bottom: 1px solid #7F99CC; background-color: #E5EAF5; color: #003399;}
+td#centerCcolumn .blockContent {padding: 4px; margin-bottom: 8px; line-height: 120%;}
+
+td#centerLcolumn {width: 50%; padding-right: 4px;}
+td#centerLcolumn .blockTitle {font-weight: bold; padding: 4px; border-left: 8px solid #7F99CC; border-bottom: 1px solid #7F99CC; background-color: #E5EAF5; color: #003399;}
+td#centerLcolumn .blockContent {padding: 4px; margin-bottom: 8px; line-height: 120%;}
+
+td#centerRcolumn {width: 50%; padding-left: 4px;}
+td#centerRcolumn .blockTitle {font-weight: bold; padding: 4px; border-left: 8px solid #7F99CC; border-bottom: 1px solid #7F99CC; background-color: #E5EAF5; color: #003399;}
+td#centerRcolumn .blockContent {padding: 4px; margin-bottom: 8px;}
+
+div#content {text-align: left;}
+
+td#rightcolumn {width: 160px; background-color: #E5EAF5; border-right: 1px solid #7F99CC; border-bottom: 1px solid #7F99CC;}
+td#rightcolumn th {}
+td#rightcolumn .blockTitle {padding: 4px; color: #FFFFFF; background-color: #7F99CC; font-weight: bold;}
+td#rightcolumn .blockContent {padding: 2px; line-height: 120%; padding-bottom: 8px;}
+
+tr#footerbar {}
+
+td#mainmenu a {display: block; margin-bottom: 1px; padding: 4px; color: #6685C2; background-color: #FFFFFF; border-left: 8px solid #B2C1E0;}
+td#mainmenu a:hover {color: #FFFFFF; text-decoration: none; background-color: #B2C1E0; border-left: 8px solid #7F99CC;}
+td#mainmenu a.menuTop {}
+td#mainmenu a.menuMain {}
+td#mainmenu a.menuSub {padding-left: 20px;}
+
+td#usermenu a {display: block; margin-bottom: 1px; padding: 4px; color: #6685C2; background-color: #FFFFFF; border-left: 8px solid #B2C1E0;}
+td#usermenu a:hover {color: #FFFFFF; text-decoration: none; background-color: #B2C1E0; border-left: 8px solid #7F99CC;}
+td#usermenu a.menuTop {}
+td#usermenu a.highlight {color: #6685C2; background-color: #FFFFFF;}
+td#usermenu a:hover.highlight {color: #FFFFFF; background-color: #B2C1E0;}
+
+
+.outer {border: 1px solid #B2C1E0; background-color: #FFFFFF;}
+.head {background-color: #B2C1E0; color: #FFFFFF; padding: 4px; font-weight: bold;}
+
+.even {background-color: #ffffff; padding: 2px;}
+.odd {background-color: #ffffff; padding: 2px;}
+
+.foot {background-color: #CCD6EB; padding: 4px; font-weight: bold;}
+tr.even td {background-color: #ffffff; padding: 4px;}
+tr.odd td {background-color: #f0e8f5; padding: 4px;}
+
+div.errorMsg {background-color: #FFCCCC; text-align: center; border-top: 1px solid #DDDDFF; border-left: 1px solid #DDDDFF; border-right: 1px solid #AAAAAA; border-bottom: 1px solid #AAAAAA; font-weight: bold; padding: 10px;}
+div.confirmMsg {background-color: #DDFFDF; color: #136C99; text-align: center; border-top: 1px solid #DDDDFF; border-left: 1px solid #DDDDFF; border-right: 1px solid #AAAAAA; border-bottom: 1px solid #AAAAAA; font-weight: bold; padding: 10px;}
+div.resultMsg {background-color : #CCCCCC; color: #333333; text-align: center; border-top: 1px solid silver; border-left: 1px solid silver; font-weight: bold; border-right: 1px solid #666666; border-bottom: 1px solid #666666; padding: 10px;}
+
+div.xoopsCode {font-size: 90%; background-color: #FFFFFF; border: 1px dashed #B2C1E0; padding: 4px;}
+div.xoopsQuote {font-size: 90%; background-color: #FFFFFF; border: 1px dashed #B2C1E0; padding: 4px;}
+
+
+.comTitle {font-weight: bold; margin-bottom: 2px;}
+.comText {padding: 2px;}
+.comUserStat {font-size: 10px; color: #6685C2; font-weight: bold; border: 1px solid #7F99CC; background-color: #FFFFFF; margin: 2px; padding: 2px;}
+.comUserStatCaption {font-weight: normal;}
+.comUserStatus {margin-left: 2px; margin-top: 10px; font-weight: bold; font-size: 10px;}
+.comUserRank {margin: 2px;}
+.comUserRankText {font-size: 10px;font-weight: bold;}
+.comUserRankImg {border: 0;}
+.comUserName {}
+.comUserImg {margin: 2px;}
+.comDate {font-weight: normal; font-style: italic; font-size: smaller}
+.comDateCaption {font-weight: bold; font-style: normal;}
+
+
+
+
+div.xoopsCode pre {margin: 0px;}
+div.xoopsQuote blockquote {margin: 0px;}
+
+#maintable {width: 760px; margin: auto;}
+
+#top {margin-bottom: 8px;}
+#top td.side {width: 8px;}
+#top td.logo {width: 250px; background-color: #CCD6EB; vertical-align: middle; border-top: 1px solid #7F99CC; border-bottom: 1px solid #7F99CC;}
+#top td.banner {background-color: #CCD6EB; text-align: center; vertical-align: middle; border-top: 1px solid #7F99CC; border-bottom: 1px solid #7F99CC;}
+
+#welcome {margin-bottom: 8px;}
+#welcome td.side {width: 8px;}
+#welcome td.center {color: #6685C2; background-color: #FFFFFF; vertical-align: middle; font-weight: bold; border-top: 1px solid #7F99CC; border-bottom: 1px solid #7F99CC;}
+
+#footer {margin-top: 8px;}
+#footer td.side {width: 8px;}
+#footer td.center {color: #6685C2; background-color: #FFFFFF; text-align: center; vertical-align: middle; font-weight: bold; border-top: 1px solid #7F99CC; border-bottom: 1px solid #7F99CC;}
+
+#copyright {margin-top: 4px; text-align: center; font-size: 10px;}

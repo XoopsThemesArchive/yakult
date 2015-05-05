@@ -1,0 +1,263 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="<{$xoops_langcode}>" lang="<{$xoops_langcode}>">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=<{$xoops_charset}>" />
+<meta http-equiv="content-language" content="<{$xoops_langcode}>" />
+<meta name="robots" content="<{$xoops_meta_robots}>" />
+<meta name="keywords" content="<{$xoops_meta_keywords}>" />
+<meta name="description" content="<{$xoops_meta_description}>" />
+<meta name="rating" content="<{$xoops_meta_rating}>" />
+<meta name="author" content="<{$xoops_meta_author}>" />
+<meta name="copyright" content="<{$xoops_meta_copyright}>" />
+<meta name="generator" content="XOOPS" />
+<title><{$xoops_sitename}> - <{$xoops_pagetitle}></title>
+<link href="<{$xoops_url}>/favicon.ico" rel="SHORTCUT ICON" />
+<link rel="stylesheet" type="text/css" media="screen" href="<{$xoops_url}>/xoops.css" />
+<link rel="stylesheet" type="text/css" media="screen" href="<{$xoops_themecss}>" />
+<!-- RMV: added module header -->
+<{$xoops_module_header}>
+<script type="text/javascript">
+<!--
+<{$xoops_js}>
+//-->
+</script>
+</head>
+<body>
+
+<table cellspacing="0" align="center" id="maintable"><tr><td>
+
+
+
+<table cellspacing="0" cellpadding="0" width="100%">
+ <tr>
+ <td class="S" background="<{$xoops_imageurl}>imagens/tr8.gif">&nbsp;</td>
+ <td class="S" width="134" rowspan="2"><img src="<{$xoops_imageurl}>imagens/tr4.gif" width="134" height="30"></td>
+ </tr>
+ <tr>
+
+ <td class="H">&nbsp;&nbsp;&nbsp;<a href="index.html" class="H">Home</a>&nbsp;|&nbsp;<a href="join.html" class="H">Join&nbsp;orkut</a>&nbsp;|&nbsp;<a href="help.html" class="H">Help</a></td>
+ </tr>
+ </table>
+
+
+
+
+
+ <table cellspacing="0" align="center" id="welcome">
+ <tr>
+ <td class="side"><img src="<{$xoops_imageurl}>r-left.gif" width="8" height="26" alt="" /></td>
+ <td class="center">
+ <{if $xoops_isuser}>
+ Welcome <a href="<{$xoops_url}>/user.php"><{$xoops_uname}></a>.
+ <{else}>
+ Welcome guest. Please <a href="<{$xoops_url}>/register.php">register</a> and become a member.
+ <{/if}>
+ </td>
+ <td class="side"><img src="<{$xoops_imageurl}>r-right.gif" width="8" height="26" alt="" /></td>
+ </tr>
+ </table>
+
+<table><tr>
+ <td class="banner"><{$xoops_banner}></td>
+ </tr></table>
+ <table cellspacing="0" align="center">
+ <tr>
+
+
+ <td id="leftcolumn">
+
+ <!-- Start left blocks loop -->
+ <{foreach item=block from=$xoops_lblocks}>
+ <table cellspacing="0">
+  <tr><td class="blockTitle">:: <{$block.title}></td></tr>
+  <tr><td class="blockContent"><{$block.content}></td></tr>
+ </table>
+ <{/foreach}>
+ <!-- End left blocks loop -->
+
+ </td>
+
+ <td id="centercolumn">
+
+ <!-- Display center blocks if any -->
+ <{if $xoops_showcblock == 1}>
+
+ <table cellspacing="0">
+  <tr>
+  <td id="centerCcolumn" colspan="2">
+
+  <!-- Start center-center blocks loop -->
+  <{foreach item=block from=$xoops_ccblocks}>
+  <div class="blockTitle"><{$block.title}></div>
+  <div class="blockContent"><{$block.content}></div>
+  <{/foreach}>
+  <!-- End center-center blocks loop -->
+
+  </td>
+  </tr>
+  <tr>
+  <td id="centerLcolumn">
+
+  <!-- Start center-left blocks loop -->
+  <{foreach item=block from=$xoops_clblocks}>
+  <div class="blockTitle"><{$block.title}></div>
+  <div class="blockContent"><{$block.content}></div>
+  <{/foreach}>
+  <!-- End center-left blocks loop -->
+
+  </td><td id="centerRcolumn">
+
+  <!-- Start center-right blocks loop -->
+  <{foreach item=block from=$xoops_crblocks}>
+  <div class="blockTitle"><{$block.title}></div>
+  <div class="blockContent"><{$block.content}></div>
+  <{/foreach}>
+  <!-- End center-right blocks loop -->
+
+  </td>
+  </tr>
+ </table>
+
+ <{/if}>
+ <!-- End display center blocks -->
+
+ <div id="content"><{$xoops_contents}></div>
+ </td>
+
+ <{if $xoops_showrblock == 1}>
+
+ <td id="rightcolumn">
+ <!-- Start right blocks loop -->
+ <{foreach item=block from=$xoops_rblocks}>
+ <table cellspacing="0">
+  <tr><td class="blockTitle">:: <{$block.title}></td></tr>
+  <tr><td class="blockContent"><{$block.content}></td></tr>
+ </table>
+ <{/foreach}>
+ <!-- End right blocks loop -->
+ </td>
+
+ <{/if}>
+
+ </tr>
+ </table>
+
+
+
+
+
+ <table cellpadding="0" cellspacing="0" width="100%">
+ <tbody>
+ <tr>
+ <td class="I" background="<{$xoops_imageurl}>imagens/tr1.gif"><{$xoops_footer}></td>
+ <td class="R" rowspan="2" width="24"><img src="<{$xoops_imageurl}>imagens/tr2.gif" height="24" width="24"></td>
+ <td class="R" align="right" background="<{$xoops_imageurl}>imagens/tr3.gif" width="300"></td>
+ </tr>
+ <tr>
+ <td class="R"></td>
+
+
+
+<td class="F" align="right" width="300"><a href="http://www.orkut.com/about.html" class="F">About orkut</a> | <a href="http://www.orkut.com/privacy.html" class="F">Privacy</a> | <a href="http://www.orkut.com/terms.html" class="F">Terms</a> | <a href="http://www.orkut.com/contact.html" class="F">Contact us</a>   </td>
+</tr>
+</tbody>
+</table>
+
+</td>
+</tr>
+</table>
+
+
+
+
+
+
+
+
+
+
+ <br>
+ <table bgcolor="#FFFFFF" cellspacing="0" cellpadding="0" border="0" width="100%" ID="Table1">
+ <tr>
+
+ <td rowspan="2">&nbsp;&nbsp;</td>
+ <td rowspan="2" align="center">
+ <span id="ws"><br><br>
+ <img src="<{$xoops_imageurl}>imagens/i_o.gif" width="58" height="20"> is an online community that connects people through a network of trusted friends.
+ <br><br>
+ We are committed to providing an online meeting place where people can socialize, make new acquaintances and find others who share their interests.
+ <br><br>
+ <img src="<{$xoops_imageurl}>imagens/i_wdyk.jpg"><br><br>
+ </span></td>
+
+ <td rowspan="2">&nbsp;&nbsp;</td>
+ <td width="200" align="right" valign="top"><img src="<{$xoops_imageurl}>imagens/i_blau1.gif" width="200" height="116"><br><br>&nbsp;
+ <table cellpadding="0" cellspacing="0" border="0" width="100%" ID="Table2">
+ <tr>
+ <td class="S">&nbsp;username:&nbsp;</td>
+ <td align="right"><input type="text" name="u" size="13" class="textbox">&nbsp;&nbsp;</td>
+ </tr>
+ <tr>
+
+ <td class="S">&nbsp;password:</td>
+ <td align="right"><input type="password" name="p" size="13" class="textbox" maxlength="32">&nbsp;&nbsp;</td>
+ </tr>
+ <tr>
+ <td colspan="2" class="S" align="right"><br>
+ <input type="image" width="72" height="24" border="0" value="Submit" name="Submit" src="<{$xoops_imageurl}>imagens/nb_signin.gif"
+ ID="Image1">&nbsp;&nbsp;</td>
+ </tr>
+ <tr>
+
+ <td colspan="2" class="R"><input type="checkbox" name="rp" class="checkbox" onclick="clearPass(this.checked, document.f.p)">remember
+ password</td>
+ </tr>
+ <tr>
+ <td class="R" align="right" colspan="2">&nbsp;[forgot your <a href="PwdForgot.aspx">password</a>?]&nbsp;&nbsp;</td>
+ </tr>
+ </table>
+ </td>
+
+ <td width="220" align="right" valign="top"><img src="<{$xoops_imageurl}>imagens/i_blau2.gif" width="220" height="198"></td>
+ </tr>
+ <tr>
+ <td width="420" colspan="2"><br>
+ <br>
+ <FONT class="E">session ended</FONT><br>
+ <FONT class="R">you have been signed out of orkut</FONT><br>
+ <br>
+
+ <br>
+ <br>
+ <br>
+ </td>
+ </tr>
+ </table>
+ <br>
+ <table cellspacing="0" cellpadding="0" width="100%">
+ <tr>
+
+ <td class="I" background="<{$xoops_imageurl}>imagens/tr1.gif">in affiliation with Google</td>
+ <td class="R" width="24" rowspan="2"><img src="<{$xoops_imageurl}>imagens/tr2.gif" width="24" height="24"></td>
+ <td align="right" class="R" width="300" background="<{$xoops_imageurl}>imagens/tr3.gif">&nbsp;</td>
+ </tr>
+ <tr>
+ <td class="R">&nbsp;</td>
+ <td class="F" align="right" width="300"><a href="about.html" class="F">About&nbsp;orkut</a>&nbsp;|&nbsp;<a href="privacy.html" class="F">Privacy</a>&nbsp;|&nbsp;<a href="terms.html" class="F">Terms</a>&nbsp;|&nbsp;<a href="contact.html" class="F">Contact&nbsp;us</a>&nbsp;&nbsp;&nbsp;</td>
+
+ </tr>
+
+ </table>
+
+ <table cellspacing="0" align="center" id="top">
+ <tr>
+ <td class="side"><img src="<{$xoops_imageurl}>h-left.gif" width="8" height="100" alt="" /></td>
+ <td class="logo"><a href="<{$xoops_url}>/"><img src="<{$xoops_imageurl}>logo.gif" width="250" height="90" alt="" /></a></td>
+ <td class="banner"><{$xoops_banner}></td>
+ <td class="side"><img src="<{$xoops_imageurl}>h-right.gif" width="8" height="100" alt="" /></td>
+ </tr>
+ </table>
+
+
+</body>
+</html>
